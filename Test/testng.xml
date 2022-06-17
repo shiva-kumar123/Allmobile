@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+  <test  name="allMobiles">
+    <classes>
+      <class name="allMobiles.launcher"/>
+      <class name="allMobiles.signup"/>
+      <class name="allMobiles.order"/>
+      <class name="allMobiles.contactus"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

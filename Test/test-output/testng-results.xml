@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-17T08:45:39 IST" name="Automation" finished-at="2022-06-17T08:46:19 IST" duration-ms="39538">
+    <groups>
+    </groups>
+    <test started-at="2022-06-17T08:45:39 IST" name="allMobiles" finished-at="2022-06-17T08:46:19 IST" duration-ms="39538">
+      <class name="allMobiles.signup">
+        <test-method signature="Lanching_the_Browser()[pri:0, instance:allMobiles.signup@27ce24aa]" started-at="2022-06-17T08:45:44 IST" name="Lanching_the_Browser" finished-at="2022-06-17T08:45:48 IST" duration-ms="3531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lanching_the_Browser -->
+        <test-method signature="Sigup_for_mobiles()[pri:0, instance:allMobiles.signup@27ce24aa]" started-at="2022-06-17T08:45:48 IST" name="Sigup_for_mobiles" finished-at="2022-06-17T08:45:52 IST" depends-on-methods="allMobiles.launcher.Lanching_the_Browser" duration-ms="4416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sigup_for_mobiles -->
+      </class> <!-- allMobiles.signup -->
+      <class name="allMobiles.order">
+        <test-method signature="Lanching_the_Browser()[pri:0, instance:allMobiles.order@481a996b]" started-at="2022-06-17T08:45:52 IST" name="Lanching_the_Browser" finished-at="2022-06-17T08:45:59 IST" duration-ms="7355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lanching_the_Browser -->
+        <test-method signature="search()[pri:2, instance:allMobiles.order@481a996b]" started-at="2022-06-17T08:45:59 IST" name="search" finished-at="2022-06-17T08:46:04 IST" duration-ms="4602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="Order()[pri:3, instance:allMobiles.order@481a996b]" started-at="2022-06-17T08:46:04 IST" name="Order" finished-at="2022-06-17T08:46:09 IST" duration-ms="5176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Order -->
+      </class> <!-- allMobiles.order -->
+      <class name="allMobiles.contactus">
+        <test-method signature="Lanching_the_Browser()[pri:0, instance:allMobiles.contactus@3d51f06e]" started-at="2022-06-17T08:46:09 IST" name="Lanching_the_Browser" finished-at="2022-06-17T08:46:15 IST" duration-ms="6091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lanching_the_Browser -->
+        <test-method signature="contactUs()[pri:4, instance:allMobiles.contactus@3d51f06e]" started-at="2022-06-17T08:46:15 IST" name="contactUs" finished-at="2022-06-17T08:46:19 IST" duration-ms="3682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+      </class> <!-- allMobiles.contactus -->
+      <class name="allMobiles.launcher">
+        <test-method signature="Lanching_the_Browser()[pri:0, instance:allMobiles.launcher@76508ed1]" started-at="2022-06-17T08:45:39 IST" name="Lanching_the_Browser" finished-at="2022-06-17T08:45:44 IST" duration-ms="4633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lanching_the_Browser -->
+      </class> <!-- allMobiles.launcher -->
+    </test> <!-- allMobiles -->
+  </suite> <!-- Automation -->
+</testng-results>
